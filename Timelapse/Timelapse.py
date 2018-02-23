@@ -26,7 +26,7 @@ def TimeLapse ():
             #3200 = 1 time            
             uploaded_image = im.upload_image(PATH, title="Uploaded with PyImgur")
             print(uploaded_image.link)
-            time.sleep(3)
+            time.sleep(3200)
             
         
 if __name__ == "__main__":
